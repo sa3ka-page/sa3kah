@@ -6,7 +6,7 @@
     
     }
     .header{
-        width: 530px;
+        width: 520px;
         height: 90%;
     }
     img{
@@ -28,7 +28,7 @@
         visibility: hidden;
     }
     .section2 {
-        width: 485px;
+        width: 520px;
         height: 200vh;
     }
     .section2 h1{
@@ -52,7 +52,7 @@
         margin-top: 50px;
     }
     .section3{
-        width: 485px;
+        width: 520px;
         height: 110vh;
     }
     .section3 h1{
@@ -76,7 +76,7 @@
         margin: auto;
     }
     .section4{
-        width: 485px;
+        width: 520px;
         height: 110vh;
     }
     .section4 h1{
@@ -125,7 +125,7 @@
         margin-bottom: 70px;
     }
     .section6{
-        width: 485px;
+        width: 520px;
         align-items: center;
         text-align: center;
 
