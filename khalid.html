@@ -6,38 +6,38 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Kalid</title>
         <style>
-            *{
+            body{
                 padding: 0;
                 margin: 0;
                 background: #181717;
-                align-items: center;
             }
-            img{
-                height: 160px;
-                width: 160px;
-                border-radius: 100px;
-                margin: 20px;
-                left: 50px;
-                zoom: 50px;
+            .header{
+            	width:94%;
+            	display:inline-block;
+            	align-items:center;
+            	text-align:center;
             }
-            h2{
+            .header img{
+                margin:4% 13%;
+                width:160px;
+                height:160px;
+                border-radius:50%;
+            }
+            .header h1{
                 color: #b94a3e;
-                margin:10px 0 0 35px;
+                margin: 2% 25%;
             }
-            h3{
+            .header h2{
                 color: #fff;
-                margin: 10px 0 0 25px;
+                margin: 2% 23%;
+     
             }
-            .row{
-                justify-content: space-between;
-                display: inline-flex;
-                align-items: center;
-                margin: 50px 0 0 35%;
-            }
-            .col{
-                margin-right: 50px;
-            }
-            .col h4{
+            .macros{
+                display: inline-block;
+                margin: 2% 24%;
+                text-align:center
+           		}
+            .macros h3{
                 color: #b94a3e;
                 border: #b94a3e solid 1px;
                 margin: 10px;
@@ -47,50 +47,95 @@
                 padding-top: 5px;
                 border-radius: 5px;
             } 
+            .macros h2{
+            	color: #fff;
+            	margin: 2% 23%;
+            }
+     
+            
+            .trans{
+            	display:inline-block;
+            	width:90%;
+            	align-items:center;
+            }
+            .before img{
+           		 width:48%;
+           		 height:48%;
+            	 margin:2% 30%;
+            }
+            .before h4{
+            	color:#b94a3e;
+            	text-align:center;
+            	margin-top:2%;
+            }
+            .after img{
+            width:48%;
+            height:48%;
+            margin:2% 30%;
+            }
+            .after h4{
+            color:#b94a3e;
+            text-align:center;
+            margin-top:2%;
+            }
             @media screen and (max-width:425px){
-                body{
-                    width: 100%;
-                }
-                img{
-                    margin-left: 60%;
-                    height: 100px;
-                    width: 100px;
-                }
-                h2{
-                    margin-left: 60%;
-                }
-                h3{
-                    margin-left: 50%;
-                }
-                .row{
-                    width: 100%;
-                    margin-right: 40px;
-                }
-                .col h4{
-                    width: 100px;
-                    margin-right: 20px;
-                }
+ 
             }
         </style>
     </head>
     <body>
-        <img src="khalid.jpg">
-        <h2>Khalid</h2>
-        <div class="row">
-            <div class="col">
-                <h4>Calories</h4>
-                <h4>Carb</h4>
-                <h4>Protein</h4>
-                <h4>Fat</h4>
-                <h4>Water</h4>
+    	<div class="header">
+       		 <img src="boy.jpeg">
+        	<h1>Khalid Ayman</h1>
+       		 <h2>training & nutrition</h2>
+        </div>
+            <div class="macros">
+                <h3>Calories : 2000</h3>
+                <h3>Carb : 160</h3>
+                <h3>Protein : 190</h3>
+                <h3>Fat : 66</h3>
+                <h3>Water : 3.5</h3>
+                <h2>Diet Plan</h2>
+                <h2>meal 1</h2>
+                <h3>200g بطاطس </h3>
+                <h3>200g بياض بيض</h3>
+                <h3>200g موز</h3>
+                <h3>سكوب بروتين</h3>
+                <h2>meal 2</h2>
+                <h3>100g ارز</h3>
+                <h3>200g لحمه حمرا</h3>
+                <h3>100g سلطه</h3>
+                <h3>سكوب بروتين</h3>
+                <h2>او</h2>
+                <h3>50g ارز</h3>
+                <h3>200g صدور دجاج</h3>
+                <h3>100g سلطه</h3>
+                <h3>سكوب بروتين</h3>
+                <h2>او</h2>
+                <h3>100g ارز</h3>
+                <h3>200g تونه /سمك</h3>
+                <h3>100g سلطه</h3>
+                <h3>سكوب بروتين</h3>
+                <h2>meal 3</h2>
+                <h3>50g ارز</h3>
+                <h3>100g سلطه</h3>
+                <h3>سكوب بروتين</h3>
+                <h2>meal 4</h2>
+                <h3>200g زبادي</h3>
+                <h3>200g بياض بيض</h3>
+                <h3>200g بطاطس </h3>
+                <h3>50g جبنه قريش</h3>
+                <h3>سكوب بروتين</h3>
             </div>
-            <div class="col">
-                <h4>Calories</h4>
-                <h4>Carb</h4>
-                <h4>Protein</h4>
-                <h4>Fat</h4>
-                <h4>Water</h4>
-            </div>
+            <div class="trans">
+            	<div class="before">
+           			 <h4>Before</h4>
+          			  <img src="khalid.jpg">
+         	   </div>
+      	      <div class="after">
+        		    <h4>After</h4>
+         		   <img src="xman.jpeg">
+          	  </div>
         </div>
     </body>
 </html>
